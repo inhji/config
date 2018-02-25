@@ -1,0 +1,13 @@
+packages: [
+  "busy-signal"
+  "file-icons"
+  "intentions"
+  "language-babel"
+  "language-graphql"
+  "linter"
+  "linter-eslint"
+  "linter-ui-default"
+  "package-sync"
+  "prettier-atom"
+  "styri-syntax"
+]
