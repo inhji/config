@@ -14,6 +14,9 @@
     userId: "e7729c1a-cfcd-4cd5-a265-85ea714ff918"
   "linter-ui-default":
     panelHeight: 159
+  "package-sync":
+    createOnChange: true
+    forceOverwrite: true
   "prettier-atom":
     formatOnSaveOptions:
       enabled: true

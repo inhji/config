@@ -1,5 +1,7 @@
 packages: [
+  "autocomplete-modules"
   "busy-signal"
+  "emmet"
   "file-icons"
   "intentions"
   "language-babel"
