@@ -12,8 +12,14 @@
     scrollSensitivity: 100
   "exception-reporting":
     userId: "e7729c1a-cfcd-4cd5-a265-85ea714ff918"
+  "language-dotenv":
+    dotenvFileNames: [
+      ".env"
+      ".env.example"
+    ]
   "linter-ui-default":
     panelHeight: 159
+    showPanel: true
   "package-sync":
     createOnChange: true
     forceOverwrite: true

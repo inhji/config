@@ -5,6 +5,7 @@ packages: [
   "file-icons"
   "intentions"
   "language-babel"
+  "language-dotenv"
   "language-graphql"
   "linter"
   "linter-eslint"
