@@ -1,9 +1,14 @@
 "*":
+  Zen:
+    showWordCount: "Right"
+    softWrap: true
+  "autocomplete-modules":
+    webpack: true
   core:
     telemetryConsent: "limited"
     themes: [
       "one-dark-ui"
-      "styri-syntax"
+      "improved-chester-atom-syntax"
     ]
   editor:
     fontFamily: "Fira Code"
@@ -19,7 +24,6 @@
     ]
   "linter-ui-default":
     panelHeight: 159
-    showPanel: true
   "package-sync":
     createOnChange: true
     forceOverwrite: true
@@ -32,5 +36,11 @@
     prettierOptions: {}
     useEditorConfig: false
     useEslint: true
+  "spell-check":
+    addKnownWords: true
+    locales: [
+      "de-DE"
+      "en-US"
+    ]
   welcome:
     showOnStartup: false
