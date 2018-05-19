@@ -93,6 +93,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+alias mp3="youtube-dl --extract-audio --audio-format mp3"
 alias inhji="trezor-agent -c inhji@inhji.de"
 alias pi="trezor-agent -c pi@pi.local"
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
