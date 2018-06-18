@@ -31,4 +31,6 @@
 # Atom Flight Manual:
 # http://flight-manual.atom.io/using-atom/sections/basic-customization/#configuring-with-cson
 'atom-text-editor[data-grammar="source js jsx"]:not([mini])':
-    'tab': 'emmet:expand-abbreviation-with-tab'
+    'ctrl+e': 'emmet:expand-abbreviation-with-tab'
+'atom-text-editor[data-grammar="text html elixir"]:not([mini])':
+    'ctrl+e': 'emmet:expand-abbreviation-with-tab'

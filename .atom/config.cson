@@ -2,19 +2,34 @@
   Zen:
     showWordCount: "Right"
     softWrap: true
+  "atom-material-ui":
+    colors:
+      abaseColor: "#5c6bc0"
+      predefinedColor: "Indigo"
+    fonts:
+      fontSize: 18
+    tabs:
+      compactTabs: true
+    ui:
+      panelContrast: true
+      useAnimations: false
   "autocomplete-modules":
     webpack: true
   core:
+    disabledPackages: [
+      "autocomplete-html"
+    ]
     telemetryConsent: "limited"
     themes: [
-      "one-dark-ui"
-      "improved-chester-atom-syntax"
+      "atom-material-ui"
+      "tone-syntax"
     ]
   editor:
     fontFamily: "Fira Code"
-    fontSize: 17
+    fontSize: 18
     preferredLineLength: 100
     scrollSensitivity: 100
+  emmet: {}
   "exception-reporting":
     userId: "e7729c1a-cfcd-4cd5-a265-85ea714ff918"
   "language-dotenv":
@@ -22,8 +37,10 @@
       ".env"
       ".env.example"
     ]
+  "linter-elixirc": {}
   "linter-ui-default":
     panelHeight: 159
+    showPanel: true
   "package-sync":
     createOnChange: true
     forceOverwrite: true
@@ -42,5 +59,10 @@
       "de-DE"
       "en-US"
     ]
+  "tone-syntax":
+    color:
+      duo: "#2196f3"
+      syncUI: false
+      tri: "#00beac"
   welcome:
     showOnStartup: false
